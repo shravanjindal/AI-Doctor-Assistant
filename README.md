@@ -1,46 +1,61 @@
-## AI-Doctor-Assistant
+Here’s a refined version of your **README** with improved clarity, formatting, and structure:  
 
-### To run this bot in your local system :
+---
 
-1) `You must have mongo database installed in your system`
-<br />
+# **AI-Doctor-Assistant**  
 
-`To start the mongo database (for linux)` : 
+AI-Doctor-Assistant is a smart healthcare assistant designed to provide AI-powered medical insights.  
 
-```
+## **🚀 Getting Started**  
+
+Follow the steps below to set up and run the project on your local system.  
+
+---
+
+## **📌 Prerequisites**  
+
+- **MongoDB** must be installed and running on your system.  
+- **Python 3.12** is required for the backend.  
+- **Node.js & npm** are required for the frontend.  
+
+---
+
+## **🛠 Backend Setup**  
+
+1️⃣ **Start MongoDB** (Linux)  
+```bash
 sudo systemctl start mongod
 ```
 
-2) `Starting the server`
-
-<br />
-
-`You should be using python==3.12`
-<br />
-
-If using conda env : 
-```
+2️⃣ **Set Up Python Environment**  
+If using **Conda**, create and activate a virtual environment:  
+```bash
 conda create -n <env_name> python=3.12
+conda activate <env_name>
 ```
 
-```
+3️⃣ **Install Dependencies & Start Backend**  
+```bash
 cd backend
 pip install -r requirements.txt
+uvicorn main:app --reload
 ```
 
-```
-uvicorn main:app
-```
-<br/>
+---
 
-3) `starting the frontend`
+## **💻 Frontend Setup**  
 
-```
+1️⃣ **Install Dependencies**  
+```bash
 cd frontend
 npm install
 ```
 
-```
+2️⃣ **Run the Frontend**  
+```bash
 npm run dev
 ```
-<hr />
+
+---
+
+Now, your AI-Doctor-Assistant should be running locally! 🚀  
