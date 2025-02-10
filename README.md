@@ -20,27 +20,27 @@ sudo systemctl start mongod
 
 If using conda env : 
 ```
-$ conda create -n <env_name> python=3.12
+conda create -n <env_name> python=3.12
 ```
 
 ```
-$ cd backend
-$ pip install -r requirements.txt
+cd backend
+pip install -r requirements.txt
 ```
 
 ```
-$ uvicorn main:app
+uvicorn main:app
 ```
 <br/>
 
 3) `starting the frontend`
 
 ```
-$ cd frontend
-$ npm install
+cd frontend
+npm install
 ```
 
 ```
-$ npm run dev
+npm run dev
 ```
 <hr />
