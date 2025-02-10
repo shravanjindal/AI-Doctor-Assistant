@@ -1,7 +1,3 @@
-Here’s a refined version of your **README** with improved clarity, formatting, and structure:  
-
----
-
 # **AI-Doctor-Assistant**  
 
 AI-Doctor-Assistant is a smart healthcare assistant designed to provide AI-powered medical insights.  
@@ -56,6 +52,6 @@ npm install
 npm run dev
 ```
 
----
-
 Now, your AI-Doctor-Assistant should be running locally! 🚀  
+
+<hr />
