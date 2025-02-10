@@ -9,11 +9,6 @@ from jose import jwt, JWTError
 from typing import Dict
 from bson import ObjectId
 import schema.models as models
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
-from langchain_community.llms import Ollama
-from dotenv import load_dotenv
-import re
 # App Initialization
 app = FastAPI()
 
