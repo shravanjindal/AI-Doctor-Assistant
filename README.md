@@ -18,9 +18,13 @@ sudo systemctl start mongod
 `You should be using python==3.12`
 <br />
 
-If using conda env : `conda create -n <env_name> python=3.12`
+If using conda env : 
+```
+$ conda create -n <env_name> python=3.12
+```
 
 ```
+$ cd backend
 $ pip install -r requirements.txt
 ```
 
@@ -32,6 +36,7 @@ $ uvicorn main:app
 3) `starting the frontend`
 
 ```
+$ cd frontend
 $ npm install
 ```
 
